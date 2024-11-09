@@ -1,0 +1,46 @@
+.contentPerfil > img {
+  width: calc(15vw - 60px);
+  /* padding: 0px 15px; */
+  border-left: 2px solid #22b14c;
+  border-right: 2px solid #22b14c;
+}
+
+.contentPerfil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center;    */
+  width: 23vw;
+  border-left: 2px solid #ccc;
+}
+
+.contentPerfil > button {
+  width: calc(15vw - 60px);
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #22b14c;
+  font-weight: bold;
+  border-radius: 10px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.contentPerfil > .name {
+  margin-top: 8px;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: #22b14c;
+}
+
+.contentPerfil > .ins {
+  font-size: 20px;
+  margin-top: 5px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: #22b14c;
+}

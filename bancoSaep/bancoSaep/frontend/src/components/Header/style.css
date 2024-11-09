@@ -1,0 +1,21 @@
+header {
+  background-color: #22b14c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 10vh;
+  padding: 12px;
+}
+
+header > .icons {
+  display: flex;
+  gap: 15px;
+}
+header > h1 {
+  color: #ffffff;
+  font-family: "Courier New", Courier, monospace;
+}
+header > .icons > .icon {
+  height: 50px;
+  width: 50px;
+}

@@ -1,0 +1,58 @@
+.contentCursos {
+  flex: 1;
+  border-left: 2px solid #c4c4c4;
+  margin-bottom: 10px;
+}
+
+.contentCursos > .titleArea {
+  border-bottom: 2px solid #c4c4c4;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contentCursos > .titleArea > span {
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.contentCursos > .postagem {
+  border-bottom: 2px solid #c4c4c4;
+  /* padding: 10px 35px; */
+}
+
+.postagem > .postagemHeader > span {
+  font-weight: bolder;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.postagem > .postagemHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.postagem > .postagemFooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.postagem > .postagemFooter > .postagemFooterActions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.postagem > .postagemFooter > .postagemFooterActions > .icon {
+  margin-right: 10px;
+}
+
+.postagem > .postagemBody > .imgPost {
+  width: 65%;
+}
+
+.postagem > .postagemBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
